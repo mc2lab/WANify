@@ -1,0 +1,22 @@
+{
+    "numDCs": "2",
+    "machineType": "t2.medium",
+    "readings": [
+        {
+            "src": "172.33.47.204",
+            "dest": "172.37.80.232",
+            "srcRegion": "ap-south-1",
+            "destRegion": "eu-west-1",
+            "sent_mbps": "98",
+            "received_mbps": "97"
+        },
+        {
+            "src": "172.37.80.232",
+            "dest": "172.33.47.204",
+            "srcRegion": "eu-west-1",
+            "destRegion": "ap-south-1",
+            "sent_mbps": "95",
+            "received_mbps": "95"
+        }
+    ]
+}

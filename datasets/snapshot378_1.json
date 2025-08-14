@@ -1,0 +1,32 @@
+{
+    "numDCs": "2",
+    "machineType": "t2.medium",
+    "readings": [
+        {
+            "src": "172.38.41.203",
+            "dest": "172.32.92.119",
+            "srcRegion": "sa-east-1",
+            "destRegion": "us-west-1",
+            "sent_Kbytes_per_second": "967.38",
+            "received_Kbytes_per_second": "612.12",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "9",
+            "remote_cpu_total": "0",
+            "ipDistance": "6436.37"
+        },
+        {
+            "src": "172.32.92.119",
+            "dest": "172.38.41.203",
+            "srcRegion": "us-west-1",
+            "destRegion": "sa-east-1",
+            "sent_Kbytes_per_second": "893.06",
+            "received_Kbytes_per_second": "589.72",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "9",
+            "remote_cpu_total": "0",
+            "ipDistance": "6436.37"
+        }
+    ]
+}

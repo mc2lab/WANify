@@ -1,0 +1,102 @@
+{
+    "numDCs": "4",
+    "machineType": "t2.medium",
+    "readings": [
+        {
+            "src": "172.34.90.187",
+            "dest": "172.33.43.226",
+            "srcRegion": "ap-southeast-1",
+            "destRegion": "ap-south-1",
+            "sent_mbps": "144",
+            "received_mbps": "143"
+        },
+        {
+            "src": "172.36.84.222",
+            "dest": "172.33.43.226",
+            "srcRegion": "ap-northeast-1",
+            "destRegion": "ap-south-1",
+            "sent_mbps": "90",
+            "received_mbps": "89"
+        },
+        {
+            "src": "172.32.87.152",
+            "dest": "172.33.43.226",
+            "srcRegion": "us-west-1",
+            "destRegion": "ap-south-1",
+            "sent_mbps": "47",
+            "received_mbps": "47"
+        },
+        {
+            "src": "172.33.43.226",
+            "dest": "172.34.90.187",
+            "srcRegion": "ap-south-1",
+            "destRegion": "ap-southeast-1",
+            "sent_mbps": "157",
+            "received_mbps": "156"
+        },
+        {
+            "src": "172.36.84.222",
+            "dest": "172.34.90.187",
+            "srcRegion": "ap-northeast-1",
+            "destRegion": "ap-southeast-1",
+            "sent_mbps": "154",
+            "received_mbps": "153"
+        },
+        {
+            "src": "172.32.87.152",
+            "dest": "172.34.90.187",
+            "srcRegion": "us-west-1",
+            "destRegion": "ap-southeast-1",
+            "sent_mbps": "26",
+            "received_mbps": "25"
+        },
+        {
+            "src": "172.36.84.222",
+            "dest": "172.32.87.152",
+            "srcRegion": "ap-northeast-1",
+            "destRegion": "us-west-1",
+            "sent_mbps": "112",
+            "received_mbps": "111"
+        },
+        {
+            "src": "172.34.90.187",
+            "dest": "172.32.87.152",
+            "srcRegion": "ap-southeast-1",
+            "destRegion": "us-west-1",
+            "sent_mbps": "71",
+            "received_mbps": "70"
+        },
+        {
+            "src": "172.33.43.226",
+            "dest": "172.32.87.152",
+            "srcRegion": "ap-south-1",
+            "destRegion": "us-west-1",
+            "sent_mbps": "53",
+            "received_mbps": "52"
+        },
+        {
+            "src": "172.34.90.187",
+            "dest": "172.36.84.222",
+            "srcRegion": "ap-southeast-1",
+            "destRegion": "ap-northeast-1",
+            "sent_mbps": "105",
+            "received_mbps": "104"
+        },
+        {
+            "src": "172.32.87.152",
+            "dest": "172.36.84.222",
+            "srcRegion": "us-west-1",
+            "destRegion": "ap-northeast-1",
+            "sent_mbps": "79",
+            "received_mbps": "79"
+        },
+        {
+            "src": "172.33.43.226",
+            "dest": "172.36.84.222",
+            "srcRegion": "ap-south-1",
+            "destRegion": "ap-northeast-1",
+            "sent_mbps": "67",
+            "received_mbps": "67"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "numDCs": "3",
+    "machineType": "t2.medium",
+    "readings": [
+        {
+            "src": "172.34.86.220",
+            "dest": "172.33.42.19",
+            "srcRegion": "ap-southeast-1",
+            "destRegion": "ap-south-1",
+            "sent_Kbytes_per_second": "16297.69",
+            "received_Kbytes_per_second": "15177.41",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "5",
+            "remote_cpu_total": "0",
+            "ipDistance": "2428.42"
+        },
+        {
+            "src": "172.32.86.12",
+            "dest": "172.33.42.19",
+            "srcRegion": "us-west-1",
+            "destRegion": "ap-south-1",
+            "sent_Kbytes_per_second": "511.21",
+            "received_Kbytes_per_second": "463.87",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "10",
+            "remote_cpu_total": "0",
+            "ipDistance": "8433.31"
+        },
+        {
+            "src": "172.33.42.19",
+            "dest": "172.34.86.220",
+            "srcRegion": "ap-south-1",
+            "destRegion": "ap-southeast-1",
+            "sent_Kbytes_per_second": "17234.64",
+            "received_Kbytes_per_second": "16099.43",
+            "num_retransmits": "3",
+            "memory_util": "0.03",
+            "local_cpu_total": "5",
+            "remote_cpu_total": "0",
+            "ipDistance": "2428.42"
+        },
+        {
+            "src": "172.32.86.12",
+            "dest": "172.34.86.220",
+            "srcRegion": "us-west-1",
+            "destRegion": "ap-southeast-1",
+            "sent_Kbytes_per_second": "472.35",
+            "received_Kbytes_per_second": "388.19",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "9",
+            "remote_cpu_total": "0",
+            "ipDistance": "8488.67"
+        },
+        {
+            "src": "172.34.86.220",
+            "dest": "172.32.86.12",
+            "srcRegion": "ap-southeast-1",
+            "destRegion": "us-west-1",
+            "sent_Kbytes_per_second": "2648.35",
+            "received_Kbytes_per_second": "1775.55",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "9",
+            "remote_cpu_total": "0",
+            "ipDistance": "8488.67"
+        },
+        {
+            "src": "172.33.42.19",
+            "dest": "172.32.86.12",
+            "srcRegion": "ap-south-1",
+            "destRegion": "us-west-1",
+            "sent_Kbytes_per_second": "505.55",
+            "received_Kbytes_per_second": "463.87",
+            "num_retransmits": "0",
+            "memory_util": "0.03",
+            "local_cpu_total": "10",
+            "remote_cpu_total": "0",
+            "ipDistance": "8433.31"
+        }
+    ]
+}
