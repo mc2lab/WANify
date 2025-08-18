@@ -50,9 +50,10 @@ If you are using our work or are motivated by it, please use the format below:
 
 # Sponsor
 <p align="left">
-  <img src="images/nsf.jpg" alt="NSF" width="300" height="300" herf="https://www.nsf.org/"/>
+  <img src="images/nsf.jpg" alt="NSF" width="200" height="200" herf="https://www.nsf.org/"/>
 </p>
-This material is based upon work supported by the National Science Foundation under Grant [CNS-2153422](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153422). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. <br>
+
+This material is based upon work supported by the National Science Foundation under Grant **[CNS-2153422](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153422)**. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. <br>
 
 
 **WANify is developed by the [Multi-cloud Computing Lab (MC2Lab)](https://sites.google.com/view/mc2lab) at the University of Nebraska Omaha.**
