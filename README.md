@@ -47,3 +47,12 @@ To predict the runtime BW for a cluster, run the following command. Here <mode> 
 
 # Refer our work
 If you are using our work or are motivated by it, please use the format below:
+
+# Sponsor
+<p align="center">
+  <img src="images/nsf.jpg" alt="Savings from prediction model"/>
+</p>
+This material is based upon work supported by the National Science Foundation under Grants CNS-2153422. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+WANify is developed by the [Multi-cloud Computing Lab (MC2Lab)](https://sites.google.com/view/mc2lab) at the University of Nebraska Omaha.
+
