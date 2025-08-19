@@ -54,8 +54,7 @@ If you are using our work or are motivated by it, please use the BibTeX format b
       eprint={2508.12961},
       archivePrefix={arXiv},
       primaryClass={cs.DC},
-      url={https://arxiv.org/abs/2508.12961}, 
-}*
+      url={https://arxiv.org/abs/2508.12961}}*
 
 # Sponsor
 <p align="left">
