@@ -58,7 +58,9 @@ If you are using our work or are motivated by it, please use the BibTeX format b
 
 # Sponsor
 <p align="left">
-  <img src="images/nsf.jpg" alt="NSF" width="200" height="200" href="https://www.nsf.org/"/>
+  <a href="https://www.nsf.org/">
+    <img src="images/nsf.jpg" alt="NSF" width="200" height="200"/>
+  </a>
 </p>
 
 This material is based upon work supported by the National Science Foundation under Grant **[CNS-2153422](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153422)**. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. <br>
