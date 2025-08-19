@@ -14,7 +14,7 @@ Therefore, gauging runtime BW precisely would be highly desirable for them to ma
 However, obtaining accurate runtime BWs and fully utilizing available BW are far from trivial. That is, gauging runtime BW precisely is challenging as BW is affected by several metrics such as the number of active peers and channel utilization of each peer. To improve WAN performance, one may uniformly increase the connections for each DC pair. However, this would incur a *BW-starvation* between distant DCs as nearby DCs occupy most of the available network, i.e., race condition and network contention. Thus, a heterogeneous number of connections should be determined optimally. This approach, however, is exponentially complex, e.g., $10^{240}$ different possibilities with 240 peering connections for two workers in each of the 8 different regions (with a maximum of 10 parallel connections between each DC-pair). Lastly, dynamics and heterogeneity in GDA, e.g., fluctuating BWs, varying number of DCs (and VMs), and input data skewness, make it impossible to determine optimal decisions statically.
 
 # WANify
-To address these challenges, we present a new WAN framework called *WANify*. WANify gauges runtime BW based on real-time snapshots and diverse inputs, e.g., number of DCs and their physical distance, which allows GDA systems to make optimal decisions by using accurate BWs. Also, WANify actively determines optimal and heterogeneous number of connections across all the peer-to-peer DC links. These determinations rely on the *achievable* predicted BW in order to improve weak WAN links, which would improve overall query latency by fully exploiting the WAN capacities. In addition, WANify uses a distributed agent-based model for handling dynamics and considers many forms of heterogeneity, such as skewed data, heterogeneous compute resources, and a varying number of DCs, while making optimal decisions. Note that WANify considers WAN performance of VMs as a user of cloud providers. Thus, it does not change anything below the application layer and because of its lightweight and orthogonal design, it can be easily integrated into any GDA system. A high-level architecture of WANify is shown below. For more details, please refer to our research paper.
+To address these challenges, we present a new WAN framework called *WANify*. WANify gauges runtime BW based on real-time snapshots and diverse inputs, e.g., number of DCs and their physical distance, which allows GDA systems to make optimal decisions by using accurate BWs. Also, WANify actively determines optimal and heterogeneous number of connections across all the peer-to-peer DC links. These determinations rely on the *achievable* predicted BW in order to improve weak WAN links, which would improve overall query latency by fully exploiting the WAN capacities. In addition, WANify uses a distributed agent-based model for handling dynamics and considers many forms of heterogeneity, such as skewed data, heterogeneous compute resources, and a varying number of DCs, while making optimal decisions. Note that WANify considers WAN performance of VMs as a user of cloud providers. Thus, it does not change anything below the application layer and because of its lightweight and orthogonal design, it can be easily integrated into any GDA system. A high-level architecture of WANify is shown below. For more details, please refer to our [research paper](https://arxiv.org/abs/2508.12961).
 
 ![WANify architecture](images/WANify_arch_v7.gif)
 
@@ -46,11 +46,20 @@ To predict the runtime BW for a cluster, run the following command. Here <mode> 
 ```python3 src/predict/livePredictor.py <mode>```
 
 # Refer our work
-If you are using our work or are motivated by it, please use the format below:
+If you are using our work or are motivated by it, please use the BibTeX format below:
+*@misc{mohapatra2025wanifygaugingbalancingruntime,
+      title={WANify: Gauging and Balancing Runtime WAN Bandwidth for Geo-distributed Data Analytics}, 
+      author={Anshuman Das Mohapatra and Kwangsung Oh},
+      year={2025},
+      eprint={2508.12961},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2508.12961}, 
+}*
 
 # Sponsor
 <p align="left">
-  <img src="images/nsf.jpg" alt="NSF" width="200" height="200" herf="https://www.nsf.org/"/>
+  <img src="images/nsf.jpg" alt="NSF" width="200" height="200" href="https://www.nsf.org/"/>
 </p>
 
 This material is based upon work supported by the National Science Foundation under Grant **[CNS-2153422](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153422)**. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. <br>
