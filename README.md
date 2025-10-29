@@ -47,14 +47,17 @@ To predict the runtime BW for a cluster, run the following command. Here <mode> 
 
 # Refer our work
 If you are using our work or are motivated by it, please use the BibTeX format below:
-*@misc{mohapatra2025wanifygaugingbalancingruntime,
+```plain
+@misc{mohapatra2025wanifygaugingbalancingruntime,
       title={WANify: Gauging and Balancing Runtime WAN Bandwidth for Geo-distributed Data Analytics}, 
       author={Anshuman Das Mohapatra and Kwangsung Oh},
       year={2025},
       eprint={2508.12961},
       archivePrefix={arXiv},
       primaryClass={cs.DC},
-      url={https://arxiv.org/abs/2508.12961}*
+      url={https://arxiv.org/abs/2508.12961}
+}
+```
 
 # Sponsor
 <p align="left">
